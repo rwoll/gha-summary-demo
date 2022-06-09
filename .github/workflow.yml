@@ -1,5 +1,18 @@
 name: demo
 
+on:
+  push:
+    branches:
+      - main
+      - release-*
+  pull_request:
+    paths-ignore:
+      - 'browser_patches/**'
+      - 'docs/**'
+    branches:
+      - main
+      - release-*
+
 jobs:
   test_linux:
     name: ${{ matrix.os }} (${{ matrix.browser }} - Node.js ${{ matrix.node-version }})
