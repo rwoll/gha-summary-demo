@@ -12,3 +12,5 @@ await core.summary
 ])
 .addLink('View staging deployment!', 'https://github.com')
 .write()
+
+process.exit(1);
