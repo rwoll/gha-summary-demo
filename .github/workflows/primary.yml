@@ -39,4 +39,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: echo "## ${{ matrix.os }} (${{ matrix.browser }} - Node.js ${{ matrix.node-version }})" >> $GITHUB_STEP_SUMMARY
-    - run: echo "results would go here" >> $GITHUB_STEP_SUMMARY
+    - run: echo "| Result | Spec |" >> $GITHUB_STEP_SUMMARY
+    - run: echo "| ------ | ---- |" >> $GITHUB_STEP_SUMMARY
+    - run: echo "| 🟢 | chromium.spec.ts > some spec |" >> $GITHUB_STEP_SUMMARY
