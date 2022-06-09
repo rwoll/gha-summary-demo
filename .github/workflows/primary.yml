@@ -34,9 +34,9 @@ jobs:
             browser: chromium
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
-      - echo "## ${{ matrix.os }} (${{ matrix.browser }} - Node.js ${{ matrix.node-version }})" >> $GITHUB_STEP_SUMMARY
-      - echo "results would go here" >> $GITHUB_STEP_SUMMARY
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: echo "## ${{ matrix.os }} (${{ matrix.browser }} - Node.js ${{ matrix.node-version }})" >> $GITHUB_STEP_SUMMARY
+    - run: echo "results would go here" >> $GITHUB_STEP_SUMMARY
