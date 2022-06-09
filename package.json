@@ -1,0 +1,21 @@
+{
+  "name": "github-job-summary-demo",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwoll/gha-summary-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwoll/gha-summary-demo/issues"
+  },
+  "homepage": "https://github.com/rwoll/gha-summary-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  }
+}
