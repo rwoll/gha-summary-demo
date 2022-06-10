@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/results-6%20failing%2C%203%20flaky%2C%203%20skipped%2C%203%20passing%20%7C%20TOTAL%3A%2015-red">
+<img src="https://img.shields.io/badge/results-6%20failing%2C%203%20flaky%2C%203%20skipped%2C%203%20passing%20%7C%20TOTAL%3A%2015-red?style=flat-square">
 <details>
   <summary>❌ <strong>examples &gt; my failing test</strong> - library/har.spec.ts <strong>[chromium]</strong></summary>
   <pre>  [chromium] › library/har.spec.ts:41:3 › examples › my failing test ===============================
