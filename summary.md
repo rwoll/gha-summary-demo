@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/results-6%20failing%2C%203%20flaky%2C%203%20skipped%2C%203%20passing%20%7C%20TOTAL%3A%2015-red">
 <details>
-  <summary>🔴 <strong>examples &gt; my failing test</strong> - library/har.spec.ts <strong>[chromium]</strong></summary>
+  <summary>❌ <strong>examples &gt; my failing test</strong> - library/har.spec.ts <strong>[chromium]</strong></summary>
   <pre>  [chromium] › library/har.spec.ts:41:3 › examples › my failing test ===============================
 
     Error: expect(received).toBe(expected) // Object.is equality
@@ -54,7 +54,7 @@
 </pre>
 </details>
 <details>
-  <summary>🔴 <strong>examples &gt; my timeout test</strong> - library/har.spec.ts <strong>[chromium]</strong></summary>
+  <summary>❌ <strong>examples &gt; my timeout test</strong> - library/har.spec.ts <strong>[chromium]</strong></summary>
   <pre>  [chromium] › library/har.spec.ts:36:3 › examples › my timeout test ===============================
 
     Timeout of 500ms exceeded.
@@ -69,7 +69,7 @@
 </pre>
 </details>
 <details>
-  <summary>🔴 <strong>examples &gt; my failing test</strong> - library/har.spec.ts <strong>[firefox]</strong></summary>
+  <summary>❌ <strong>examples &gt; my failing test</strong> - library/har.spec.ts <strong>[firefox]</strong></summary>
   <pre>  [firefox] › library/har.spec.ts:41:3 › examples › my failing test ================================
 
     Error: expect(received).toBe(expected) // Object.is equality
@@ -123,7 +123,7 @@
 </pre>
 </details>
 <details>
-  <summary>🔴 <strong>examples &gt; my timeout test</strong> - library/har.spec.ts <strong>[firefox]</strong></summary>
+  <summary>❌ <strong>examples &gt; my timeout test</strong> - library/har.spec.ts <strong>[firefox]</strong></summary>
   <pre>  [firefox] › library/har.spec.ts:36:3 › examples › my timeout test ================================
 
     Timeout of 500ms exceeded.
@@ -138,7 +138,7 @@
 </pre>
 </details>
 <details>
-  <summary>🔴 <strong>examples &gt; my failing test</strong> - library/har.spec.ts <strong>[webkit]</strong></summary>
+  <summary>❌ <strong>examples &gt; my failing test</strong> - library/har.spec.ts <strong>[webkit]</strong></summary>
   <pre>  [webkit] › library/har.spec.ts:41:3 › examples › my failing test =================================
 
     Error: expect(received).toBe(expected) // Object.is equality
@@ -192,7 +192,7 @@
 </pre>
 </details>
 <details>
-  <summary>🔴 <strong>examples &gt; my timeout test</strong> - library/har.spec.ts <strong>[webkit]</strong></summary>
+  <summary>❌ <strong>examples &gt; my timeout test</strong> - library/har.spec.ts <strong>[webkit]</strong></summary>
   <pre>  [webkit] › library/har.spec.ts:36:3 › examples › my timeout test =================================
 
     Timeout of 500ms exceeded.
@@ -207,7 +207,7 @@
 </pre>
 </details>
 <details>
-  <summary>🟣 <strong>examples &gt; my flaky test</strong> - library/har.spec.ts <strong>[chromium]</strong></summary>
+  <summary>⚠️ <strong>examples &gt; my flaky test</strong> - library/har.spec.ts <strong>[chromium]</strong></summary>
   <pre>  [chromium] › library/har.spec.ts:28:3 › examples › my flaky test =================================
 
     Error: expect(received).toBe(expected) // Object.is equality
@@ -227,7 +227,7 @@
 </pre>
 </details>
 <details>
-  <summary>🟣 <strong>examples &gt; my flaky test</strong> - library/har.spec.ts <strong>[firefox]</strong></summary>
+  <summary>⚠️ <strong>examples &gt; my flaky test</strong> - library/har.spec.ts <strong>[firefox]</strong></summary>
   <pre>  [firefox] › library/har.spec.ts:28:3 › examples › my flaky test ==================================
 
     Error: expect(received).toBe(expected) // Object.is equality
@@ -247,7 +247,7 @@
 </pre>
 </details>
 <details>
-  <summary>🟣 <strong>examples &gt; my flaky test</strong> - library/har.spec.ts <strong>[webkit]</strong></summary>
+  <summary>⚠️ <strong>examples &gt; my flaky test</strong> - library/har.spec.ts <strong>[webkit]</strong></summary>
   <pre>  [webkit] › library/har.spec.ts:28:3 › examples › my flaky test ===================================
 
     Error: expect(received).toBe(expected) // Object.is equality
