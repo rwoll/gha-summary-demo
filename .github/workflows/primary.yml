@@ -38,5 +38,4 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: node ./report.mjs
+    - run: cat ./summary.html >> $GITHUB_STEP_SUMMARY
